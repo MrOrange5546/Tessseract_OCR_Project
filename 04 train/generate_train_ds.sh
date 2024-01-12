@@ -3,7 +3,6 @@ PANGOCAIRO_BACKEND=fc \
 tesseract/src/training/tesstrain.sh --fonts_dir fonts \
          --fontlist fontlist \
          --lang tha \
-         --linedata_only --noextract_font_properties \
          --exposures '0' \
          --langdata_dir langdata_lstm \
          --tessdata_dir tesseract/tessdata \

@@ -1,1 +1,0 @@
-combine_tessdata -e tesseract/tessdata/tha.traineddata tha.lstm

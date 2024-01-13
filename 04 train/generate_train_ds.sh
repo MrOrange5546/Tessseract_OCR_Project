@@ -8,4 +8,4 @@ tesseract/src/training/tesstrain.sh --fonts_dir /content/Tessseract_OCR_Project/
          --tessdata_dir tesseract/tessdata \
          --save_box_tiff \
          --maxpages 48400 \
-         --output_dir train 
+         --output_dir train

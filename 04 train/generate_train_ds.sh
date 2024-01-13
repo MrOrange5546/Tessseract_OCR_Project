@@ -1,6 +1,6 @@
 rm -rf train/*
 PANGOCAIRO_BACKEND=fc \
-tesseract/src/training/tesstrain.sh --fonts_dir /content/Tessseract_OCR_Project/04 train/fonts \
+tesseract/src/training/tesstrain.sh --fonts_dir /content/Tessseract_OCR_Project/04 train/fonts/ \
          --fontlist fontlist.txt \
          --lang tha \
          --exposures '0' \

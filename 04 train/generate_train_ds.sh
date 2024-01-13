@@ -1,7 +1,7 @@
 rm -rf train/*
 PANGOCAIRO_BACKEND=fc \
 tesseract/src/training/tesstrain.sh --fonts_dir fonts \
-         --fontlist /content/Tessseract_OCR_Project/04 train/fontlist.txt \
+         --fontlist FC Candy \
          --lang tha \
          --exposures '0' \
          --langdata_dir langdata_lstm \
